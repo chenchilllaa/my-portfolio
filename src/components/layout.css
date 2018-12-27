@@ -55,3 +55,18 @@ a {
   padding: 15px 20px;
   border-radius: 5px;
 }
+
+@media (max-width: 640px) {
+  .HeroGroup {
+      padding: 100px 20px;
+  }
+
+  .Hero h1 {
+    font-size: 120px;
+  }
+    
+  .Hero p {
+    font-size: 18px;
+  }
+
+}

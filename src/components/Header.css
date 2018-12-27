@@ -1,0 +1,41 @@
+.Header {
+    position: fixed;
+    width: 100%;
+    padding: 50px 10px;
+    z-index: 100;
+}
+
+.HeaderGroup {
+    max-width: 900px;
+    margin: 6px 20px;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    align-items: center;
+    justify-items: center;
+}
+
+.Header a {
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+
+.Header button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+@media (max-width: 640px) {
+    .Header {
+        padding: 15px 0;
+    }
+
+    .HeaderGroup {
+        grid-template-columns: repeat (3, auto);
+    }
+}
+   
+
