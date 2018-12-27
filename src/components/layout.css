@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches|Montserrat');
+
+body {
+  font-family: 'Montserrat';
+  margin: 0;
+  font-size: 28px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 0.5;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+a {
+  color: rgba(22, 91, 182, 0.9);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.Hero {
+  background: url('../images/hero.jpg');
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+}
+
+.HeroGroup {
+  margin: 0px;
+  max-width: 700px;
+  padding: 80px;
+  text-align: left;
+}
+
+.Hero h1 {
+  font-family: 'Staatliches';
+  margin: 0px;
+  padding-top: 10%;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 180px;
+  line-height: 1.2;
+}
+
+.Hero p {
+  color: white;
+  font-size: 30px;
+  line-height: 1.3;
+  padding-bottom: 5%;
+}
+
+.Hero a {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 15px 20px;
+  border-radius: 5px;
+}
