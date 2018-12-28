@@ -13,7 +13,7 @@ const IndexPage = () => (
             <div className="HeroGroup">
               <h1>Night Owl</h1>
               <p>Sleep is for the dead</p>
-              <Link to="/page-2/">Foshizzle</Link>
+              <Link to="/page-2/">Fo' Shizzle</Link>
             </div>
           </div>
          
